@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background: url('../img/draw.jpg') 0 0;
+}
+.wrapper{
+    margin: 15px;
+}
+.wrapper canvas{
+    border: 1px solid royalblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.wrapper .btn-list{
+    width: 900px;
+    text-align: center;
+}
+.wrapper .btn-list li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.wrapper .btn-list li input{
+    display: block;
+    background: yellow;
+    color: #000;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    /* box-sizing: border-box; */
+    transition-duration:0.2px;
+}
+.wrapper .btn-list li input:hover{
+    border: 1px solid rebeccapurple;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3);
+}
+
